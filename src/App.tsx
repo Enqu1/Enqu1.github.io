@@ -1,11 +1,10 @@
 import "./App.css";
-import viteLogo from "/vite.svg";
+import Topbar from "./components/Topbar";
 
 function App() {
   return (
     <>
-      <img src={viteLogo} alt="vite logo" />
-      <div>Hello Elle</div>
+      <Topbar />
     </>
   );
 }
