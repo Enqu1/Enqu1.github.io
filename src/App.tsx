@@ -1,4 +1,4 @@
-import "./App.css";
+import About from "./components/About";
 import Header from "./components/Header";
 import HomeSection from "./components/HomeSection";
 
@@ -7,6 +7,7 @@ function App() {
     <>
       <Header />
       <HomeSection />
+      <About />
     </>
   );
 }
