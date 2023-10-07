@@ -20,7 +20,7 @@
 }
 
 .header-name {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     transition: color 0.3s linear;
 }
 
@@ -43,6 +43,7 @@ a{
     max-height: 120rem;
     color: black;
     position: relative;
+    padding-top: 4rem;
 }
 
 .home-section-content {
@@ -89,4 +90,43 @@ a{
 .header-link:hover {
     color: rgb(214,76,29);
     cursor: pointer;
+}
+
+.scroll {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -110%);
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.scroll::after {
+    content: "";
+    width: 45%;
+    aspect-ratio: 1/1;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    display: block;
+    border-radius: 100%;
+    animation: scroll 1s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20%);
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, 250%);
+    }
 }

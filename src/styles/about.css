@@ -1,4 +1,5 @@
 .about-section-content{
+  padding-top: 4rem;
   width: 90%;
   margin: auto;
   max-width: 80rem;
@@ -10,7 +11,7 @@
   position: absolute;
   width: 5rem;
   height: 5px;
-  top: calc(100% + 5rem);
+  translate: 0 1250%;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -24,10 +25,6 @@
   font-weight: 600;
   letter-spacing: 4px;
   margin-bottom: 3.5rem;
-}
-
-.about {
-  height: calc(100vh - 4rem);
 }
 
 .about-section-info {

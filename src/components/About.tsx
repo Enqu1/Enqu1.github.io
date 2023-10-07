@@ -1,4 +1,18 @@
 function About() {
+  const skills = [
+    "Python",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Typescript",
+    "C++",
+    "C#",
+    "GIT",
+    "GitHub",
+    "Basic SQL",
+  ];
+
   return (
     <section id="about" className="about">
       <div className="about-section-content">
@@ -33,16 +47,11 @@ function About() {
           <div className="skills">
             <h2 className="skills-header">My Skills</h2>
             <div className="skill-list">
-              <div className="skill">Python</div>
-              <div className="skill">HTML</div>
-              <div className="skill">CSS</div>
-              <div className="skill">Javascript</div>
-              <div className="skill">React</div>
-              <div className="skill">C++</div>
-              <div className="skill">Typescript</div>
-              <div className="skill">GIT</div>
-              <div className="skill">GitHub</div>
-              <div className="skill">Basic SQL</div>
+              {skills.map((skill, index) => (
+                <div key={index} className="skill">
+                  {skill}
+                </div>
+              ))}
             </div>
           </div>
         </div>

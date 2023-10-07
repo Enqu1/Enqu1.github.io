@@ -10,6 +10,7 @@ function HomeSection() {
           </p>
         </div>
       </div>
+      <div className="scroll"></div>
     </section>
   );
 }

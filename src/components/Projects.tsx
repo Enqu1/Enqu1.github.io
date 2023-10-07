@@ -1,17 +1,16 @@
 function Projects() {
   return (
     <>
-      <div className="projects">
-        <div className="project">
-          <img className="image" src="rbx.png" alt="vite" />
+      <section id="projects" className="projects-section">
+        <div className="projects-section-content">
+          <div className="projects-section-header">
+            <h1 className="projects-header">Projects</h1>
+            <p className="info info-medium">
+              Here you will find information about me and my current skills
+            </p>
+          </div>
         </div>
-        <div className="project">
-          <img className="image" src="rbx.png" alt="vite" />
-        </div>
-        <div className="project">
-          <img className="image" src="rbx.png" alt="vite" />
-        </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -7,22 +7,22 @@ function Header() {
         </h1>
         <div className="header-links">
           <h3>
-            <a className="header-link" href="./#home">
+            <a className="header-link" href="#home">
               Home
             </a>
           </h3>
           <h3>
-            <a className="header-link" href="./#about">
+            <a className="header-link" href="#about">
               About
             </a>
           </h3>
           <h3>
-            <a className="header-link" href="./#about">
+            <a className="header-link" href="#projects">
               Projects
             </a>
           </h3>
           <h3>
-            <a className="header-link" href="./#about">
+            <a className="header-link" href="#about">
               Contact
             </a>
           </h3>
